@@ -12,7 +12,7 @@
  * @param {boolean} [options.hasCopyButton] Optional. Whether a copy button is generated and added in the wrapper. Defaults to `true`.
  * @param {boolean} [options.isButtonInToolbar] Optional. Whether the copy button is in the toolbar instead of the wrapper. Defaults to `false`.
  * @param {CodeWrapStringOrContextContent} [options.copyButtonLabel] Optional. The label to display in the button. If a function is provided, it takes the full renderer arguments to give context. If a string is provided, it can be HTML or whitespace (but please add an aria-label attribute in that case!). Defaults to `Copy code`.
- * @param {Object.<string, CodeWrapStringOrContextContent>} [options.copyButtonAttrs] Optional. Attributes to attach to the button element. Any function provided takes the full renderer arguments to give context. Defaults to `Copy code`.
+ * @param {Object.<string, CodeWrapStringOrContextContent>} [options.copyButtonAttrs] Optional. Attributes to attach to the button element. Any function provided takes the full renderer arguments to give context. Defaults to `{}`.
  * @param {boolean|string} [options.inlineCopyHandler] Optional. Defaults to `true`, which adds an `onclick` attribute to the button to copy the code. Can be overwritten with a string for inline code, or removed with `false` to allow authors to implement a global custom handler instead.
  */
 function CodeWrap(md, options = {}) {
