@@ -1,6 +1,6 @@
 # markdown-it-codewrap
 
-A Markdown-It plugin to wrap custom markup around blocks of code
+A Markdown-It plugin to wrap custom markup around blocks of code, optionally adding a Copy button.
 
 ## Options
 
